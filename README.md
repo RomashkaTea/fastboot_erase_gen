@@ -1,2 +1,2 @@
 # fastboot_erase_gen
-fun
+just for fun
