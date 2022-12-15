@@ -1,7 +1,7 @@
 
 
-erase_array = ["userdata", "system", "vendor", "boot", "cache", "recovery", "misc", "abl", "modem", "modemst1", "modemst2", "fsg", "frp", "abl", "xblbak", "ablbak", "crclist", "sparsecrclist", "aboot", "bootloader", "xbl", "arb", "preloader", "aboot", "tz", "tzbak", "hyp", "hypbak", "rpm", "rpmbak", "devcfg", "devcfgbak", "cmnlib", "cmnlibbak", "cmnlib64", "cmnlib64bak", "dsp", "storsec", "storsecbak", "bluetooth", "keymaster", "keymasterbak", "logo", "splash"]
-erase_ab_array = ["system", "vendor", "boot", "recovery", "product"]
+erase_array = ["userdata", "system", "vendor", "boot", "cache", "recovery", "vbmeta", "misc", "abl", "modem", "modemst1", "modemst2", "fsg", "frp", "abl", "xblbak", "ablbak", "crclist", "sparsecrclist", "aboot", "bootloader", "xbl", "arb", "preloader", "aboot", "tz", "tzbak", "hyp", "hypbak", "rpm", "rpmbak", "devcfg", "devcfgbak", "cmnlib", "cmnlibbak", "cmnlib64", "cmnlib64bak", "dsp", "storsec", "storsecbak", "bluetooth", "keymaster", "keymasterbak", "logo", "splash"]
+erase_ab_array = ["system", "vendor", "boot", "recovery", "product", "vbmeta", "vbmeta_system", "vbmeta_vendor"]
 lock_bootloader = True
 
 for i in erase_array:
